@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+h1{
+    font-size: 3.5rem;
+    color: rgba(0, 0, 0, 0.20);
+
+}
+
+.choices{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.choices button{
+
+    font-size: 3.5rem;
+    min-width: 180px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: rgb(230, 26, 11);
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+    color: white;
+
+}
+
+.choices button:hover{
+    background-color: rgb(158, 8, 8);
+    
+}
+
+#playerCashDisplay{
+    font-size: 2.5rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right: 10px; 
+    margin-top: 10px;
+}
+
+#computerDisplay{
+    font-size: 2.5rem;
+    margin: 30px 0;
+}
+
+.scoreDisplay{
+
+    font-size: 2rem;
+
+}
+
+#numberDisplay{
+    font-size: 10rem;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%; /* Adjust the width as needed */
+    color: white;
+}
+
+.grid-button {
+    width: 30%; /* Adjust based on container width to fit 3 in a row */
+    margin-bottom: 20px; /* Adds some space between the rows */
+    /* Additional styling for the buttons */
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+.grid-button:hover {
+    width: 30%; /* Adjust based on container width to fit 3 in a row */
+    margin-bottom: 20px; /* Adds some space between the rows */
+    /* Additional styling for the buttons */
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: rgba(0, 128, 0, 0.644);
+}
+
+.redText{
+    color: red;
+}
+
+.blackText{
+    color: rgb(0, 0, 0);
+}
+
+.grid-button, .placeholder {
+    width: 30%; /* Ajuste com base na largura do contêiner para caber 3 em uma linha */
+    margin-bottom: 20px; /* Adiciona algum espaço entre as linhas */
+    /* Estilização adicional para os botões */
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+.placeholder {
+    background-color: transparent;
+    color: transparent;
+    cursor: default;
+    border: none; /* Remove bordas caso haja */
+}
+
+/* Torna os placeholders invisíveis e não-interativos */
+.placeholder {
+    visibility: hidden;
+}

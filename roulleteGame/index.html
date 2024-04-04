@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>
+        Cassino
+    </h1>
+
+    <div id="playerCashDisplay">
+
+    </div>
+
+    <div id="numberDisplay">
+
+    </div>
+
+    <div id="resultDisplay">
+
+    </div>
+    
+    <div class="button-container" id="buttons">
+        <button class="grid-button" id="simpleBet" onclick="playGame('simpleBet')">Simples</button>
+        <button class="grid-button" id="evenBet" onclick="playGame('evenBet')">Numeros Pares</button>
+        <button class="grid-button" id="oddBet" onclick="playGame('oddBet')">Numeros Impares</button>
+        <button class="grid-button" id="lowBet" onclick="playGame('lowBet')">Baixos</button>
+        <button class="grid-button" id="highBet" onclick="playGame('highBet')">Altos</button>
+        <button class="grid-button" id="redBet" onclick="playGame('redBet')">Vermelhos</button>
+        <button class="grid-button" id="blackBet" onclick="playGame('blackBet')">Pretos</button>
+        <button class="grid-button" id="firstDozenBet" onclick="playGame('firstDozenBet')">Primeira Dúzia</button>
+        <button class="grid-button" id="secondDozenBet" onclick="playGame('secondDozenBet')">Segunda Dúzia</button>
+        <button class="grid-button" id="thirdDozenBet" onclick="playGame('thirdDozenBet')">Terceira Dúzia</button>
+        <button class="grid-button" id="firstColumnBet" onclick="playGame('firstColumnBet')">Primeira Coluna</button>
+        <button class="grid-button" id="secondColumnBet" onclick="playGame('secondColumnBet')">Segunda Coluna</button>
+        <button class="grid-button placeholder"></button>
+        <button class="grid-button" id="thirdColumnBet" onclick="playGame('thirdColumnBet')">Terceira Coluna</button>
+        <button class="grid-button placeholder"></button>
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>
